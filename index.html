@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Post Barang - AkuPinjam</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="header">
+        <a href="../home/home.html"><img class="logo" src="../ah/logo.png"></a>
+    </div>
+    <div id="content">
+        <div id="post">
+            <h2>Publikasikan barang yang Anda butuhkan</h2>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Nama barang</label>
+                        </td>
+                        <td>
+                            <input type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Deskripsi</label>
+                        </td>
+                        <td>
+                            <input type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Pinjam mulai</label>
+                        </td>
+                        <td>
+                            <input type="date" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Pinjam selama</label>
+                        </td>
+                        <td>
+                            <input type="number" size=4 min=1 max=365 />
+                            <label>hari</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gambar (opsional)</label>
+                        </td>
+                        <td>
+                            <input type="file" size=4 />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <a href="../home/home.html"><button>Post</button></a>
+        </div>
+        <div id="menu" class="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="../profile/profile.html">Profil</a></li>
+                <li><a href="../home/home.html">Beranda</a></li>
+                <li><a href="../searcher/search.html">Cari barang</a></li>
+                <li><a href="#"></a>About</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <h3>AkuPinjam</h3>
+    </div>
+</body>

@@ -1,0 +1,171 @@
+body {
+    background-color: white;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+#header {
+    background-color: #000040;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#bar {
+    background-color: #bbb;
+    width: 770px;
+    height: 80px;
+    padding: 10px;
+    float: left;
+}
+
+#barleft {
+    float: left;
+}
+
+.logo {
+    height: 80px;
+}
+
+#barright {
+    width: 340px;
+    float: right;
+}
+
+#searchbar {
+    background-color: #bbb;
+    height: 30px;
+    align-items: center;
+}
+
+#searchbar button {
+    background-color: #c5e1e8;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    float: right;
+    border-radius: 15px;
+}
+
+.searchtext {
+    background-color: white;
+    border: 0;
+    border-radius: 15px;
+    height: 30px;
+    padding-left: 10px;
+    float: left;
+}
+
+.searchimg {
+    width: 20px;
+    float: right;
+    object-fit: contain;
+}
+
+#navi {
+    background-color: #bbb;
+    width: 360px;
+    height: 80px;
+    padding: 10px;
+    float: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#barright ul {
+    padding-top: 10px;
+}
+
+#barright li {
+    display: inline-block;
+    padding: 0px;
+}
+
+#leftnav button {
+    padding: 10px;
+    width: 120px;
+    height: 40px;
+    border: 0;
+}
+
+#barright button:hover {
+    background-color: #ddd;
+}
+
+#navi li {
+    display: inline-block;
+}
+
+#navi button {
+    background-color: #39444e;
+    width: 80px;
+    height: 80px;
+    border: 0;
+    padding: 10px;
+    margin: 0px 3px;
+}
+
+#navi button:hover {
+    background-color: #ddd;
+}
+
+.pic {
+    height: 50px;
+    width: 40px;
+    object-fit: contain;
+}
+
+#results {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+#results h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.barang {
+    width: 960px;
+    height: 120px;
+    padding: 10px;
+    border: solid 2px;
+    margin-bottom: 10px;
+    border-color: black;
+}
+
+.img {
+    height: 120px;
+    float: left;
+}
+
+.desc {
+    width: 720px;
+    float: right;
+}
+
+#footer {
+    clear: both;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #000040;
+    color: white;
+    text-align: right;
+}
